@@ -1,38 +1,104 @@
-.App {
+
+/* CSS for all paragraphs */
+.paragraph {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+/* CSS for h1 element */
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+
+/* Inline CSS */
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* Override previous CSS */
+span {
+	color: blue !important;
+}
+
+/* Border CSS */
+img {
+	border: 2px solid rgb(252, 251, 251);
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #cccccc;
+}
+
+/* Color in 3 different ways */
+p {
+	color: #002aff;
+}
+
+h1 {
+	color: rgb(0, 4, 255);
+    }
+    
+    li {
+    color: rgb(0, 77, 128);
+    }
+    
+    /* Hexadecimal color */
+    .container {
+    background-color: #e6e6e6;
+    }
+    
+    /* Additional CSS properties for elements */
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    table {
+    width: 100%;
+    margin-top: 20px;
+    }
+    
+    th, td {
+    padding: 10px;
+    text-align: center;
+    }
+    
+    th {
+    background-color: white;
+    }
+    
+     ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    li {
+      list-style-type: none;
+    padding: 5px;
+    margin-bottom: 5px;
+    }
+    
+
+     .proj-card{
+      border: 1px solid rgb(14, 30, 133);
+      margin: 3px;
+     }
+
+
+
+ .footer {
+  background-color: #f8f8f8;
+  padding: 20px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
